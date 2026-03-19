@@ -1,0 +1,22 @@
+artifact_path: file:///c:/Users/Sriram/3D Objects/project 2/project/mlruns/0/models/m-1d830aaa787947d79548247d27c8f222/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.11
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.10.1
+model_id: m-1d830aaa787947d79548247d27c8f222
+model_size_bytes: 480352
+model_uuid: m-1d830aaa787947d79548247d27c8f222
+prompts: null
+run_id: 482abced89904a888a972f9fbc149fd5
+utc_time_created: '2026-03-19 10:15:43.469650'
